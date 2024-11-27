@@ -7,8 +7,12 @@ Gostam de programação: Ricardo, Roberto, Pedro, Vinicios
 Gostam de jogar futebol: Mateus, Roberto, Paulo, Vinicios
 Gostam  da Asimov Academy: Ricardo, Mateus, Paulo, Pedro
 
-Usando operações de conjuntosencontre o conjunto de amigos que gostam de programação e
+Usando operações de conjuntosencontre o conjunto de amigos que gostam de    programação e
 estudam na Asimov Academy e não gostam de futebol.
 
-
 '''
+
+programacao = {"Ricardo", "Roberto", "Pedro", "Vinicios"}
+futebol = {"Mateus", "Roberto", "Paulo", "Vinicios"}
+asimov = {"Ricardo", "Mateus", "Paulo", "Pedro"}
+print((programacao | asimov) - futebol)
